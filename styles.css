@@ -22,6 +22,7 @@ body{
 
 }
 
+
 .header{
   margin:40px;
   display: flex;
@@ -62,15 +63,12 @@ body{
 
 .caption{
 font-size:13px;
-color:grey;
-display:none;
+color:rgb(34, 33, 33);
+background-color: white;
+position:relative ;bottom:5px;
+text-indent: 5px;
+padding:11px 5px 11px 5px;
 }
-
-.image:hover + .caption{
-  display:block;
-  position: absolute;
-  
-} 
 
 .nav-bar{
   display:flex;
@@ -82,7 +80,10 @@ display:none;
   
 }
 
-
+figure:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  
+}
 .link{
   color:grey;
   text-decoration: none;
