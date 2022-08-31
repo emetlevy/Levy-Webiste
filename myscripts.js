@@ -11,7 +11,7 @@ $("input").on("click", viewSomething);
 function resizeImage(img){
 
   if ( action == 1 ) {
-    img.style.transform = "scale(2)";
+    img.style.transform = "scale(1.9)";
     img.style.transition =
       "transform 0.25s ease";
     img.style.zIndex = "1000";
