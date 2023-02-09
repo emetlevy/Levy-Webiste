@@ -1,0 +1,115 @@
+.Name{
+    color:black;
+    font-family:Arial;
+    font-style: italic;
+    font-size:70px;
+    padding:0px 30px 0px 50px;
+    margin-bottom:30px;
+  
+    
+}
+
+.TitleLink{
+    text-decoration: none;
+}
+.behindtext{
+    color:white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-family:Arial;
+    font-style: italic;
+    font-size:70px;
+    position:absolute; top:-10px;left:50px;
+    z-index:1;
+    animation: out 1.2s forwards;   
+
+}
+@keyframes out {
+from {transform:translate(10px,10px);}
+  to { transform:translate(0px,0px);}
+  
+}
+ .behindtext:hover{
+  animation: in 1.2s forwards;  
+}
+@keyframes in {
+  from {transform:translate(0px,0px);}
+  to{ transform:translate(10px,10px);}
+}
+
+ 
+.MenuBar{
+    padding:0px 0px 0px 50px;
+    display:inline;
+} 
+.MenuBar a{
+    padding:0px 30px 0px 0px;
+    color:grey;
+    text-decoration: none;
+    font-family: arial;
+} 
+.MenuBar a:hover{
+    color:black;
+}
+.dropdown {
+    position: relative;
+    display:inline;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;left:0px;
+    background-color:white;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-content a{
+    display: block;
+    padding:5px;
+  }
+  .dropdown-content a:hover{
+    color:black;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .Images img{
+    max-width:700px;
+    max-height: 1000px;
+  }
+  figure{
+    margin-top:100px;
+    margin-left:300px;
+    
+  }
+  figcaption{
+    font-family: arial;
+    font-weight: 800;
+    font-size: 30px;
+  }
+.date{
+  color:grey; 
+  font-size:15px;
+  font-weight: 10;
+  font-family: arial;
+}
+  video{
+    height:500px;
+    margin:100px;
+  }
+  body{
+    margin-bottom:100px;
+  }
+
+  object{
+    position:absolute;top:300px;right:150px;
+  }
+
+  .sketch{
+    max-width:400px;
+    max-height: 500px;
+    margin:15px;
+  }
