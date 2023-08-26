@@ -113,3 +113,7 @@ from {transform:translate(10px,10px);}
     max-height: 500px;
     margin:15px;
   }
+
+.my_email{
+    padding-left:20px;
+}
